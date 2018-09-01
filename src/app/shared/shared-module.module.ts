@@ -1,9 +1,9 @@
-import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { RouterModule } from "@angular/router";
+import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -12,7 +12,7 @@ import { FooterComponent } from './footer/footer.component';
         PageNotFoundComponent,
         FooterComponent
     ],
-    imports: [CommonModule,RouterModule],
+    imports: [CommonModule, RouterModule],
     exports: [HeaderComponent, PageNotFoundComponent, FooterComponent]
 })
 export class SharedModule { }

@@ -3,9 +3,13 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <a routerLink="home">Show Home</a><br>
-      <!-- <button class="btn btn-primary" type="button">Button</button> -->
+      <a routerLink="home">Show Home</a>
+      <button class="btn btn-primary" type="button" (click)="printUserData()">Get User Data</button>
       <a routerLink="test/1">Start page</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
       <router-outlet></router-outlet>
     </div>
   </div>
