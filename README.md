@@ -27,5 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## build in laravel public/app folder 
+change this setting in angular.json file
+`"outputPath": "../back-end/public/app",` note `back-end` is the folder name for ur laravel back end project <br>
 `ng build --base-href /app/` or
 `ng build --prod --base-href /app/`
